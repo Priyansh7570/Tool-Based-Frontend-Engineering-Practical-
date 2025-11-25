@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Alert Button</title>
+
+    <style> 
+        #alertBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #19371b;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <button id="alertBtn">Click Me</button>
+
+    <script>
+        document.getElementById('alertBtn').addEventListener('click', function() {
+            alert('Hello User! Welcome to JavaScript.');
+        });
+    </script>
+</body>
+</html>
